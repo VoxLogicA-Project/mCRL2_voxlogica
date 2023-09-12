@@ -26,6 +26,7 @@ set(MCRL2_TOOLS
   ltsconvert
   ltsgraph
   ltsinfo
+  ltsimage
   ltspbisim
   ltspcompare
   ltsview
