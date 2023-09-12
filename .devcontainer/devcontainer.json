@@ -3,7 +3,7 @@
     "dockerfile": "Dockerfile"
   },
   "customizations": {
-    "vscode": { "extensions": ["ms-python.python", "Tyriar.luna-paint","ms-vscode.cpptools-extension-pack"] }
+    "vscode": { "extensions": ["ms-python.python", "Tyriar.luna-paint","ms-vscode.cpptools-extension-pack","ms-azuretools.vscode-docker"] }
   },
   "shutdownAction": "none"
 }
