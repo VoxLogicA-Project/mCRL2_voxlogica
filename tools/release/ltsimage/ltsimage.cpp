@@ -84,8 +84,7 @@ class ltsinfo_tool : public input_tool
       list.push_front(a);
       mcrl2::lps::multi_action omega(list);
 
-      std::size_t a_index = result.add_action(mcrl2::lts::action_label_lts::action_label_lts(omega));
-
+  std::size_t a_index = result.add_action(mcrl2::lts::action_label_lts(omega));
       // Now we can make a transition from the state indices and the action index.
       result.add_transition(mcrl2::lts::transition(s, a_index, t));
 
