@@ -1,9 +1,0 @@
-[Desktop Entry]
-Icon=mcrl2-green
-Name=LTSGraph
-Comment=Visualisation tool for small state spaces (mCRL2 toolset)
-Type=Application
-Exec=ltsgraph
-Categories=Education;Science;
-X-SuSE-translate=true
-

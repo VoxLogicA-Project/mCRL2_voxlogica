@@ -15,6 +15,46 @@
 #include "mcrl2/process/action_label.h"
 #include "mcrl2/process/process_expression.h"
 #include "mcrl2/lts/detail/liblts_bisim_dnj.h"
+///Nuovi pacchetti 
+#include <itkImageFileWriter.h>
+#include <itkRGBPixel.h>
+#include <itkImageRegionIterator.h>
+#include <filesystem>
+#include "itkNeighborhoodIterator.h"
+#include <vector>
+#include <map>
+#include <fstream>
+std::string rgbToString(int r, int g, int b)
+{
+  std::stringstream ss;
+  ss << "#(" << r << "," << g << "," << b << ")";
+  return ss.str();
+}
+using namespace std;
+
+// Classe per rappresentare un arco con un'etichetta
+class Edge
+{
+public:
+  string label;
+  itk::Index<2U> from;
+  itk::Index<2U> to;
+  Edge(string lbl, itk::Index<2U> source, itk::Index<2U> destination) : label(lbl), from(source), to(destination) {}
+};
+
+// Classe per rappresentare un grafo
+class Graph
+{
+public:
+  vector<Edge *> edges;
+
+  // Aggiunge un arco al grafo
+  void addEdge(Edge *edge)
+  {
+    edges.push_back(edge);
+  }
+};
+
 
 using namespace mcrl2::utilities::tools;
 using namespace mcrl2::utilities;
@@ -66,7 +106,77 @@ class ltsinfo_tool : public input_tool
     bool run()
     {
       // Load your image with simpleitk
+Graph graph;
+  using ImageType = itk::Image<itk::RGBPixel<uint8_t>, 2>;
+  auto reader = itk::ImageFileReader<ImageType>::New();
+  reader->SetFileName("test-images/maze-4.png");
+  try
+  {
+    reader->Update(); // Read the image from the file
+  }
+  catch (const itk::ExceptionObject &ex)
+  {
+    std::cerr << "Error: " << ex.GetDescription() << std::endl; // Print any error that occurs during reading
+    return EXIT_FAILURE;
+  }
+  ImageType::Pointer image = reader->GetOutput();
 
+  // cout << "Prima immagine" << std::endl;
+  // cout << image << std::endl;
+
+  // itk::ImageRegionIterator  it = new itk::ImageRegionIterator(image,image)
+
+  ImageType::RegionType region = image->GetLargestPossibleRegion();
+  ImageType::SizeType size = region.GetSize();
+
+  ImageType::SizeType radius;
+  radius[0] = 1;
+  radius[1] = 1;
+
+  itk::ConstNeighborhoodIterator<ImageType> iterator(radius, image, region);
+  iterator.GoToBegin();
+ 
+
+  while (!iterator.IsAtEnd())
+  {
+    
+    
+    auto idx = iterator.GetIndex();
+
+    itk::RGBPixel<unsigned char> y = iterator.GetCenterPixel();
+    // auto neighbours = iterator.GetNeighborhood()
+
+    for (unsigned int i = 0; i < 9; ++i)
+    {
+      bool IsInBounds;
+      itk::RGBPixel<unsigned char> x = iterator.GetPixel(i, IsInBounds);
+
+      if (IsInBounds)
+      {
+        auto idx2 = iterator.GetIndex(i);
+        if (idx == idx2)
+        {
+          Edge *edgeF = new Edge(rgbToString(x[0], x[1], x[2]), idx, idx);
+          graph.addEdge(edgeF);
+        }
+        else
+        {
+          if (x[0] == y[0] && x[1] == y[1] && x[2] == y[2])
+          {
+            Edge *edgeF = new Edge("t", idx, idx2);
+            graph.addEdge(edgeF);
+          }
+          else
+          {
+            Edge *edgeF = new Edge("ch", idx, idx2);
+            graph.addEdge(edgeF);
+          }
+        }
+      }
+    }
+    ++iterator;
+  
+  }
       // Convert the lts
       mcrl2::lts::lts_lts_t result;
 
@@ -84,7 +194,7 @@ class ltsinfo_tool : public input_tool
       list.push_front(a);
       mcrl2::lps::multi_action omega(list);
 
-  std::size_t a_index = result.add_action(mcrl2::lts::action_label_lts(omega));
+      std::size_t a_index = result.add_action(mcrl2::lts::action_label_lts(omega));
       // Now we can make a transition from the state indices and the action index.
       result.add_transition(mcrl2::lts::transition(s, a_index, t));
 

@@ -1,1 +1,0 @@
-/usr/bin/gcc  -Wall -Wno-inline -fno-strict-overflow -pipe -fPIC -g -W -Wl,--as-needed -Wl,--warn-unresolved-symbols,--warn-once CMakeFiles/make_dparser.dir/make_dparser.c.o CMakeFiles/make_dparser.dir/version.c.o -o ../../stage/bin/make_dparser  ../../stage/lib/libmkdparse.a ../../stage/lib/libdparser.a 

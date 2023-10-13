@@ -1,9 +1,0 @@
-[Desktop Entry]
-Icon=mcrl2-green
-Name=LTSView
-Comment=Visualisation tool for large state spaces (mCRL2 toolset)
-Type=Application
-Exec=ltsview
-Categories=Education;Science;
-X-SuSE-translate=true
-

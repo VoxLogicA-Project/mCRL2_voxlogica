@@ -1,9 +1,0 @@
-[Desktop Entry]
-Icon=@ICON@
-Name=@TOOLNAME@
-Comment=@DESCRIPTION@
-Type=Application
-Exec=@COMMANDLINE@
-Categories=Education;Science;
-X-SuSE-translate=true
-

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Icon=mcrl2-red
-Name=mCRL2 XI
-Comment=Graphical editor/interpreter for mCRL2 files
-Type=Application
-Exec=mcrl2xi
-Categories=Education;Science;
-X-SuSE-translate=true
-
