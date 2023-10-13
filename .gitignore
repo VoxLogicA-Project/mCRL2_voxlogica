@@ -4,3 +4,4 @@ build/
 # Compiled byte-code for Python.
 *.pyc
 .hypothesis
+build
