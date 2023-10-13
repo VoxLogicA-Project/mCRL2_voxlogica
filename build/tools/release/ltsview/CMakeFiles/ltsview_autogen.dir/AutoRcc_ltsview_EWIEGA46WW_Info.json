@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/workspaces/img2mcrl2/mCRL2_voxlogica/build/tools/release/ltsview/ltsview_autogen",
+	"CMAKE_BINARY_DIR" : "/workspaces/img2mcrl2/mCRL2_voxlogica/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/workspaces/img2mcrl2/mCRL2_voxlogica/build/tools/release/ltsview",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/workspaces/img2mcrl2/mCRL2_voxlogica/tools/release/ltsview",
+	"CMAKE_SOURCE_DIR" : "/workspaces/img2mcrl2/mCRL2_voxlogica",
+	"INCLUDE_DIR" : "/workspaces/img2mcrl2/mCRL2_voxlogica/build/tools/release/ltsview/ltsview_autogen/include",
+	"INPUTS" : 
+	[
+		"/workspaces/img2mcrl2/mCRL2_voxlogica/tools/release/ltsview/ltsview.ico"
+	],
+	"LOCK_FILE" : "/workspaces/img2mcrl2/mCRL2_voxlogica/build/tools/release/ltsview/CMakeFiles/ltsview_autogen.dir/AutoRcc_ltsview_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "ltsview" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_ltsview.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/workspaces/img2mcrl2/mCRL2_voxlogica/build/tools/release/ltsview/CMakeFiles/ltsview_autogen.dir/AutoRcc_ltsview_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/workspaces/img2mcrl2/mCRL2_voxlogica/tools/release/ltsview/ltsview.qrc",
+	"VERBOSITY" : 0
+}

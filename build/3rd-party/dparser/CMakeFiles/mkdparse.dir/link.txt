@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../stage/lib/libmkdparse.a CMakeFiles/mkdparse.dir/mkdparse.c.o CMakeFiles/mkdparse.dir/write_tables.c.o CMakeFiles/mkdparse.dir/grammar.g.c.o CMakeFiles/mkdparse.dir/gram.c.o CMakeFiles/mkdparse.dir/lex.c.o CMakeFiles/mkdparse.dir/lr.c.o CMakeFiles/mkdparse.dir/version.c.o
+/usr/bin/ranlib ../../stage/lib/libmkdparse.a

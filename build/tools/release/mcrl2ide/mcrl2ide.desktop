@@ -1,0 +1,9 @@
+[Desktop Entry]
+Icon=mcrl2-red
+Name=mCRL2 IDE
+Comment=A graphical IDE for creating, analyzing, visualizing and verifying mCRL2 specifications
+Type=Application
+Exec=mcrl2ide
+Categories=Education;Science;
+X-SuSE-translate=true
+

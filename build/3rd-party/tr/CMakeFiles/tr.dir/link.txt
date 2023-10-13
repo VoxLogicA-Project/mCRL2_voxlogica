@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtr.a CMakeFiles/tr.dir/source/tr.c.o
+/usr/bin/ranlib libtr.a

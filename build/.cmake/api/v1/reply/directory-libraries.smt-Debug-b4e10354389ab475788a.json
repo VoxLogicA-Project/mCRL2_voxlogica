@@ -1,0 +1,227 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_add_mcrl2_binary",
+			"add_mcrl2_library",
+			"_install_header_files"
+		],
+		"files" : 
+		[
+			"build/cmake/AddMCRL2Binary.cmake",
+			"libraries/smt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 256,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libmcrl2_smt.so"
+			],
+			"targetId" : "mcrl2_smt::@0916e8a574ed2e2e5c0f",
+			"targetIndex" : 72,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/answer.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/child_process.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/native_translation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/solver.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/translate_expression.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/translate_sort.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/translate_specification.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/translation_error.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/unfold_pattern_matching.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/smt",
+			"paths" : 
+			[
+				"libraries/smt/include/mcrl2/smt/utilities.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libraries/smt",
+		"source" : "libraries/smt"
+	}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../stage/lib/libdparser.a CMakeFiles/dparser.dir/arg.c.o CMakeFiles/dparser.dir/parse.c.o CMakeFiles/dparser.dir/scan.c.o CMakeFiles/dparser.dir/dsymtab.c.o CMakeFiles/dparser.dir/util.c.o CMakeFiles/dparser.dir/read_binary.c.o CMakeFiles/dparser.dir/dparse_tree.c.o
+/usr/bin/ranlib ../../stage/lib/libdparser.a

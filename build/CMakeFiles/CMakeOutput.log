@@ -1,0 +1,884 @@
+The system is: Linux - 6.2.0-31-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-ixPMdv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bdb78/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bdb78.dir/build.make CMakeFiles/cmTC_bdb78.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-ixPMdv'
+Building C object CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -v -o CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~23.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~23.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bdb78.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bdb78.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8scaHP.s
+GNU C17 (Ubuntu 12.3.0-1ubuntu1~23.04) version 12.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 12.3.0-1ubuntu1~23.04) version 12.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d9353c3f0a32d3e91a16ba312e2a9024
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bdb78.dir/'
+ as -v --64 -o CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o /tmp/cc8scaHP.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_bdb78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdb78.dir/link.txt --verbose=1
+/usr/bin/gcc  -v CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o -o cmTC_bdb78 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~23.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~23.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bdb78' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bdb78.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cchv5N7r.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bdb78 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bdb78' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bdb78.'
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-ixPMdv'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-ixPMdv]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bdb78/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bdb78.dir/build.make CMakeFiles/cmTC_bdb78.dir/build]
+  ignore line: [gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-ixPMdv']
+  ignore line: [Building C object CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~23.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~23.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bdb78.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bdb78.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8scaHP.s]
+  ignore line: [GNU C17 (Ubuntu 12.3.0-1ubuntu1~23.04) version 12.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 12.3.0-1ubuntu1~23.04) version 12.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d9353c3f0a32d3e91a16ba312e2a9024]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bdb78.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o /tmp/cc8scaHP.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_bdb78]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdb78.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -v CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o -o cmTC_bdb78 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~23.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~23.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bdb78' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bdb78.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cchv5N7r.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bdb78 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchv5N7r.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bdb78] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_bdb78.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-yghhrH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa48f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa48f.dir/build.make CMakeFiles/cmTC_aa48f.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-yghhrH'
+Building CXX object CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++   -v -o CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~23.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~23.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aa48f.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_aa48f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cckmnGm8.s
+GNU C++17 (Ubuntu 12.3.0-1ubuntu1~23.04) version 12.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/x86_64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 12.3.0-1ubuntu1~23.04) version 12.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 16d8e9c7f95d1b20c28ab711ca7df821
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aa48f.dir/'
+ as -v --64 -o CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckmnGm8.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_aa48f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa48f.dir/link.txt --verbose=1
+/usr/bin/g++  -v CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aa48f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~23.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~23.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa48f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aa48f.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNiBgBk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_aa48f /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa48f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aa48f.'
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-yghhrH'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/x86_64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/12] ==> [/usr/include/x86_64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/x86_64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-yghhrH]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa48f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa48f.dir/build.make CMakeFiles/cmTC_aa48f.dir/build]
+  ignore line: [gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-yghhrH']
+  ignore line: [Building CXX object CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~23.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~23.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aa48f.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_aa48f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cckmnGm8.s]
+  ignore line: [GNU C++17 (Ubuntu 12.3.0-1ubuntu1~23.04) version 12.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 12.3.0-1ubuntu1~23.04) version 12.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 16d8e9c7f95d1b20c28ab711ca7df821]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aa48f.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckmnGm8.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_aa48f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa48f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++  -v CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aa48f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~23.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-DAPbBt/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~23.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa48f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aa48f.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNiBgBk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_aa48f /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNiBgBk.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aa48f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_aa48f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test C_ACCEPTS_WALL succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-U7Bobz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f2ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f2ca.dir/build.make CMakeFiles/cmTC_3f2ca.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-U7Bobz'
+Building C object CMakeFiles/cmTC_3f2ca.dir/src.c.o
+/usr/bin/gcc -DC_ACCEPTS_WALL  -Wall -o CMakeFiles/cmTC_3f2ca.dir/src.c.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-U7Bobz/src.c
+Linking C executable cmTC_3f2ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f2ca.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_3f2ca.dir/src.c.o -o cmTC_3f2ca 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-U7Bobz'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_ACCEPTS_WNO_INLINE succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-McQ7V1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0c79a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0c79a.dir/build.make CMakeFiles/cmTC_0c79a.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-McQ7V1'
+Building C object CMakeFiles/cmTC_0c79a.dir/src.c.o
+/usr/bin/gcc -DC_ACCEPTS_WNO_INLINE  -Wall    -Wno-inline -o CMakeFiles/cmTC_0c79a.dir/src.c.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-McQ7V1/src.c
+Linking C executable cmTC_0c79a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c79a.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wall  CMakeFiles/cmTC_0c79a.dir/src.c.o -o cmTC_0c79a 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-McQ7V1'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_ACCEPTS_FNO_STRICT_OVERFLOW succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-DjiUQM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17534/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17534.dir/build.make CMakeFiles/cmTC_17534.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-DjiUQM'
+Building C object CMakeFiles/cmTC_17534.dir/src.c.o
+/usr/bin/gcc -DC_ACCEPTS_FNO_STRICT_OVERFLOW  -Wall -Wno-inline    -fno-strict-overflow -o CMakeFiles/cmTC_17534.dir/src.c.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-DjiUQM/src.c
+Linking C executable cmTC_17534
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17534.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wall -Wno-inline  CMakeFiles/cmTC_17534.dir/src.c.o -o cmTC_17534 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-DjiUQM'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_ACCEPTS_PIPE succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-Ltl68z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2d24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2d24.dir/build.make CMakeFiles/cmTC_b2d24.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-Ltl68z'
+Building C object CMakeFiles/cmTC_b2d24.dir/src.c.o
+/usr/bin/gcc -DC_ACCEPTS_PIPE  -Wall -Wno-inline -fno-strict-overflow    -pipe -o CMakeFiles/cmTC_b2d24.dir/src.c.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-Ltl68z/src.c
+Linking C executable cmTC_b2d24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2d24.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wall -Wno-inline -fno-strict-overflow  CMakeFiles/cmTC_b2d24.dir/src.c.o -o cmTC_b2d24 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-Ltl68z'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_ACCEPTS_W succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-sjLgC7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c997/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c997.dir/build.make CMakeFiles/cmTC_1c997.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-sjLgC7'
+Building C object CMakeFiles/cmTC_1c997.dir/src.c.o
+/usr/bin/gcc -DC_ACCEPTS_W  -Wall -Wno-inline -fno-strict-overflow -pipe    -W -o CMakeFiles/cmTC_1c997.dir/src.c.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-sjLgC7/src.c
+Linking C executable cmTC_1c997
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c997.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wall -Wno-inline -fno-strict-overflow -pipe  CMakeFiles/cmTC_1c997.dir/src.c.o -o cmTC_1c997 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-sjLgC7'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_ACCEPTS_FPIC succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-E4KukY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_34fb6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_34fb6.dir/build.make CMakeFiles/cmTC_34fb6.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-E4KukY'
+Building C object CMakeFiles/cmTC_34fb6.dir/src.c.o
+/usr/bin/gcc -DC_ACCEPTS_FPIC  -Wall -Wno-inline -fno-strict-overflow -pipe    -fPIC -o CMakeFiles/cmTC_34fb6.dir/src.c.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-E4KukY/src.c
+Linking C executable cmTC_34fb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34fb6.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wall -Wno-inline -fno-strict-overflow -pipe  CMakeFiles/cmTC_34fb6.dir/src.c.o -o cmTC_34fb6 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-E4KukY'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_STD_CPP17 succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-RvAFEz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e56cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e56cc.dir/build.make CMakeFiles/cmTC_e56cc.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-RvAFEz'
+Building CXX object CMakeFiles/cmTC_e56cc.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_STD_CPP17  -std=c++17 -o CMakeFiles/cmTC_e56cc.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-RvAFEz/src.cxx
+Linking CXX executable cmTC_e56cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e56cc.dir/link.txt --verbose=1
+/usr/bin/g++ CMakeFiles/cmTC_e56cc.dir/src.cxx.o -o cmTC_e56cc 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-RvAFEz'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WALL succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BQUnDv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6bdd5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6bdd5.dir/build.make CMakeFiles/cmTC_6bdd5.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BQUnDv'
+Building CXX object CMakeFiles/cmTC_6bdd5.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WALL  -std=c++17    -Wall -o CMakeFiles/cmTC_6bdd5.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BQUnDv/src.cxx
+Linking CXX executable cmTC_6bdd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bdd5.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17  CMakeFiles/cmTC_6bdd5.dir/src.cxx.o -o cmTC_6bdd5 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BQUnDv'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WNO_INLINE succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-xC09K3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53472/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53472.dir/build.make CMakeFiles/cmTC_53472.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-xC09K3'
+Building CXX object CMakeFiles/cmTC_53472.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WNO_INLINE  -std=c++17 -Wall    -Wno-inline -o CMakeFiles/cmTC_53472.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-xC09K3/src.cxx
+Linking CXX executable cmTC_53472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53472.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall  CMakeFiles/cmTC_53472.dir/src.cxx.o -o cmTC_53472 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-xC09K3'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_FNO_STRICT_OVERFLOW succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-xC0bqI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8866/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8866.dir/build.make CMakeFiles/cmTC_d8866.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-xC0bqI'
+Building CXX object CMakeFiles/cmTC_d8866.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_FNO_STRICT_OVERFLOW  -std=c++17 -Wall -Wno-inline    -fno-strict-overflow -o CMakeFiles/cmTC_d8866.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-xC0bqI/src.cxx
+Linking CXX executable cmTC_d8866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8866.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline  CMakeFiles/cmTC_d8866.dir/src.cxx.o -o cmTC_d8866 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-xC0bqI'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_PIPE succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-iANoU8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48946/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_48946.dir/build.make CMakeFiles/cmTC_48946.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-iANoU8'
+Building CXX object CMakeFiles/cmTC_48946.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_PIPE  -std=c++17 -Wall -Wno-inline -fno-strict-overflow    -pipe -o CMakeFiles/cmTC_48946.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-iANoU8/src.cxx
+Linking CXX executable cmTC_48946
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48946.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow  CMakeFiles/cmTC_48946.dir/src.cxx.o -o cmTC_48946 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-iANoU8'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_PEDANTIC succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-V3eSsj
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e409/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e409.dir/build.make CMakeFiles/cmTC_4e409.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-V3eSsj'
+Building CXX object CMakeFiles/cmTC_4e409.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_PEDANTIC  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe    -pedantic -o CMakeFiles/cmTC_4e409.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-V3eSsj/src.cxx
+Linking CXX executable cmTC_4e409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e409.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe  CMakeFiles/cmTC_4e409.dir/src.cxx.o -o cmTC_4e409 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-V3eSsj'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_W succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-LUnaen
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_87943/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_87943.dir/build.make CMakeFiles/cmTC_87943.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-LUnaen'
+Building CXX object CMakeFiles/cmTC_87943.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_W  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -W -o CMakeFiles/cmTC_87943.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-LUnaen/src.cxx
+Linking CXX executable cmTC_87943
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87943.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_87943.dir/src.cxx.o -o cmTC_87943 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-LUnaen'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WEXTRA succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-q3J2MM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e71a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e71a.dir/build.make CMakeFiles/cmTC_1e71a.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-q3J2MM'
+Building CXX object CMakeFiles/cmTC_1e71a.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WEXTRA  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Wextra -o CMakeFiles/cmTC_1e71a.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-q3J2MM/src.cxx
+Linking CXX executable cmTC_1e71a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e71a.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_1e71a.dir/src.cxx.o -o cmTC_1e71a 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-q3J2MM'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WUNUSED_VARIABLE succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-LvxSsd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa586/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa586.dir/build.make CMakeFiles/cmTC_aa586.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-LvxSsd'
+Building CXX object CMakeFiles/cmTC_aa586.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WUNUSED_VARIABLE  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Wunused-variable -o CMakeFiles/cmTC_aa586.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-LvxSsd/src.cxx
+Linking CXX executable cmTC_aa586
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa586.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_aa586.dir/src.cxx.o -o cmTC_aa586 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-LvxSsd'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WUNUSED_PARAMETER succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-CUcSq6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b41c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b41c2.dir/build.make CMakeFiles/cmTC_b41c2.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-CUcSq6'
+Building CXX object CMakeFiles/cmTC_b41c2.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WUNUSED_PARAMETER  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Wunused-parameter -o CMakeFiles/cmTC_b41c2.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-CUcSq6/src.cxx
+Linking CXX executable cmTC_b41c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b41c2.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_b41c2.dir/src.cxx.o -o cmTC_b41c2 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-CUcSq6'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WUNUSED_FUNCTION succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BJ4Js4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af2de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af2de.dir/build.make CMakeFiles/cmTC_af2de.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BJ4Js4'
+Building CXX object CMakeFiles/cmTC_af2de.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WUNUSED_FUNCTION  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Wunused-function -o CMakeFiles/cmTC_af2de.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BJ4Js4/src.cxx
+Linking CXX executable cmTC_af2de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af2de.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_af2de.dir/src.cxx.o -o cmTC_af2de 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BJ4Js4'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WUNUSED succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-rueo2y
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a08c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a08c5.dir/build.make CMakeFiles/cmTC_a08c5.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-rueo2y'
+Building CXX object CMakeFiles/cmTC_a08c5.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WUNUSED  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Wunused -o CMakeFiles/cmTC_a08c5.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-rueo2y/src.cxx
+Linking CXX executable cmTC_a08c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a08c5.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_a08c5.dir/src.cxx.o -o cmTC_a08c5 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-rueo2y'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WNO_SYSTEM_HEADERS succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-UJFeTN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d527e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d527e.dir/build.make CMakeFiles/cmTC_d527e.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-UJFeTN'
+Building CXX object CMakeFiles/cmTC_d527e.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WNO_SYSTEM_HEADERS  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Wno-system-headers -o CMakeFiles/cmTC_d527e.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-UJFeTN/src.cxx
+Linking CXX executable cmTC_d527e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d527e.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_d527e.dir/src.cxx.o -o cmTC_d527e 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-UJFeTN'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WOVERLOADED_VIRTUAL succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-vo7Qu4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb26e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb26e.dir/build.make CMakeFiles/cmTC_cb26e.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-vo7Qu4'
+Building CXX object CMakeFiles/cmTC_cb26e.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WOVERLOADED_VIRTUAL  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Woverloaded-virtual -o CMakeFiles/cmTC_cb26e.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-vo7Qu4/src.cxx
+Linking CXX executable cmTC_cb26e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb26e.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_cb26e.dir/src.cxx.o -o cmTC_cb26e 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-vo7Qu4'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WWRITE_STRINGS succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-dsTwG8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39b2b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39b2b.dir/build.make CMakeFiles/cmTC_39b2b.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-dsTwG8'
+Building CXX object CMakeFiles/cmTC_39b2b.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WWRITE_STRINGS  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Wwrite-strings -o CMakeFiles/cmTC_39b2b.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-dsTwG8/src.cxx
+Linking CXX executable cmTC_39b2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39b2b.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_39b2b.dir/src.cxx.o -o cmTC_39b2b 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-dsTwG8'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_WMISSING_DECLARATIONS succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-c66Hzi
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1792b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1792b.dir/build.make CMakeFiles/cmTC_1792b.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-c66Hzi'
+Building CXX object CMakeFiles/cmTC_1792b.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_WMISSING_DECLARATIONS  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -Wmissing-declarations -o CMakeFiles/cmTC_1792b.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-c66Hzi/src.cxx
+Linking CXX executable cmTC_1792b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1792b.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_1792b.dir/src.cxx.o -o cmTC_1792b 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-c66Hzi'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_FPIC succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-wXuloq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8df2e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8df2e.dir/build.make CMakeFiles/cmTC_8df2e.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-wXuloq'
+Building CXX object CMakeFiles/cmTC_8df2e.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_FPIC  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic    -fPIC -o CMakeFiles/cmTC_8df2e.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-wXuloq/src.cxx
+Linking CXX executable cmTC_8df2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8df2e.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic  CMakeFiles/cmTC_8df2e.dir/src.cxx.o -o cmTC_8df2e 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-wXuloq'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BXRBvJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e1475/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1475.dir/build.make CMakeFiles/cmTC_e1475.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BXRBvJ'
+Building C object CMakeFiles/cmTC_e1475.dir/src.c.o
+/usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Wno-inline -fno-strict-overflow -pipe -fPIC  -o CMakeFiles/cmTC_e1475.dir/src.c.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BXRBvJ/src.c
+Linking C executable cmTC_e1475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1475.dir/link.txt --verbose=1
+/usr/bin/gcc  -Wall -Wno-inline -fno-strict-overflow -pipe -fPIC  -Wl,--as-needed  CMakeFiles/cmTC_e1475.dir/src.c.o -o cmTC_e1475 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-BXRBvJ'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_TEMPLATE_DEPTH succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-rk9Tei
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_914f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_914f0.dir/build.make CMakeFiles/cmTC_914f0.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-rk9Tei'
+Building CXX object CMakeFiles/cmTC_914f0.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_TEMPLATE_DEPTH  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic -fPIC    -ftemplate-depth=2000 -std=gnu++17 -o CMakeFiles/cmTC_914f0.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-rk9Tei/src.cxx
+Linking CXX executable cmTC_914f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_914f0.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic -fPIC  -Wl,--as-needed  CMakeFiles/cmTC_914f0.dir/src.cxx.o -o cmTC_914f0 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-rk9Tei'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_ACCEPTS_PIC succeeded with the following output:
+Change Dir: /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-PnUdf5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_815ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_815ed.dir/build.make CMakeFiles/cmTC_815ed.dir/build
+gmake[1]: Entering directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-PnUdf5'
+Building CXX object CMakeFiles/cmTC_815ed.dir/src.cxx.o
+/usr/bin/g++ -DCXX_ACCEPTS_PIC  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic -fPIC    -fPIC -std=gnu++17 -o CMakeFiles/cmTC_815ed.dir/src.cxx.o -c /workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-PnUdf5/src.cxx
+Linking CXX executable cmTC_815ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_815ed.dir/link.txt --verbose=1
+/usr/bin/g++  -std=c++17 -Wall -Wno-inline -fno-strict-overflow -pipe -pedantic -fPIC  -Wl,--as-needed  CMakeFiles/cmTC_815ed.dir/src.cxx.o -o cmTC_815ed 
+gmake[1]: Leaving directory '/workspaces/img2mcrl2/mCRL2_voxlogica/build/CMakeFiles/CMakeScratch/TryCompile-PnUdf5'
+
+
+Source file was:
+int main() { return 0; }
+

@@ -1,4 +1,4 @@
-// Author(s): Maurice Laveaux
+// Author(s): Davide Trotta
 // Copyright: see the accompanying file COPYING or copy at
 // https://github.com/mCRL2org/mCRL2/blob/master/COPYING
 //
@@ -34,7 +34,7 @@ class ltsinfo_tool : public input_tool
   public:
 
     ltsinfo_tool() :
-      input_tool("ltsimage", "Maurice Laveaux",
+      input_tool("ltsimage", "Davide Trotta",
                    "help short",
                    "help long"
                   )
@@ -99,7 +99,7 @@ class ltsinfo_tool : public input_tool
 
       // Write the reduced lts to disk.
       result.save("test.lts");
-
+      mCRL2log(mcrl2::log::info) << this->infilename;
       return true;
     }
 };

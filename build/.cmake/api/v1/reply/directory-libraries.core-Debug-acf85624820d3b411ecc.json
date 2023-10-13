@@ -1,0 +1,371 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_add_mcrl2_binary",
+			"add_mcrl2_library",
+			"_install_header_files"
+		],
+		"files" : 
+		[
+			"build/cmake/AddMCRL2Binary.cmake",
+			"libraries/core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 256,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libmcrl2_core.so"
+			],
+			"targetId" : "mcrl2_core::@141ae99611f459bb23a1",
+			"targetIndex" : 62,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/add_binding.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/builder.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core/detail",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/detail/builder_msvc.inc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core/detail",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/detail/construction_utility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core/detail",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/detail/default_values.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core/detail",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/detail/dparser_functions.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core/detail",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/detail/function_symbols.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core/detail",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/detail/print_utility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core/detail",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/detail/soundness_checks.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core/detail",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/detail/traverser_msvc.inc.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/dparser.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/identifier_string.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/load_aterm.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/parse.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/parser_utility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/print.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/print_format.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/term_traits.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/core",
+			"paths" : 
+			[
+				"libraries/core/include/mcrl2/core/traverser.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libraries/core",
+		"source" : "libraries/core"
+	}
+}

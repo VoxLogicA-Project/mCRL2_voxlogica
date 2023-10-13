@@ -1,0 +1,9 @@
+[Desktop Entry]
+Icon=mcrl2-orange
+Name=mCRL2 GUI
+Comment=Graphical interface for the mCRL2 toolset
+Type=Application
+Exec=mcrl2-gui
+Categories=Education;Science;
+X-SuSE-translate=true
+

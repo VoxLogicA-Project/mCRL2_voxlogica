@@ -1,0 +1,83 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_add_man_page",
+			"_add_mcrl2_binary",
+			"add_mcrl2_tool"
+		],
+		"files" : 
+		[
+			"build/cmake/AddMCRL2Binary.cmake",
+			"tools/release/lpsconfcheck/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Documentation",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"build/tools/release/lpsconfcheck/lpsconfcheck.1.gz"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Stable",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"stage/bin/lpsconfcheck"
+			],
+			"targetId" : "lpsconfcheck::@dd5c6798be737c1374c5",
+			"targetIndex" : 27,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/release/lpsconfcheck",
+		"source" : "tools/release/lpsconfcheck"
+	}
+}

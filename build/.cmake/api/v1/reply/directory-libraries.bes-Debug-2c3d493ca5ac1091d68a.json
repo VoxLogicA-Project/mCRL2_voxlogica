@@ -1,0 +1,627 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_add_mcrl2_binary",
+			"add_mcrl2_library",
+			"_install_header_files"
+		],
+		"files" : 
+		[
+			"build/cmake/AddMCRL2Binary.cmake",
+			"libraries/bes/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 256,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libmcrl2_bes.so"
+			],
+			"targetId" : "mcrl2_bes::@8677f93575175667be66",
+			"targetIndex" : 61,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/bdd_expression.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/bdd_operations.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/bes2pbes.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/boolean_equation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/boolean_equation_system.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/boolean_expression.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/builder.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/consistent_correlation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes/detail",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/detail/bes_algorithm.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes/detail",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/detail/bes_property_map.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes/detail",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/detail/boolean_expression2pbes_expression_traverser.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes/detail",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/detail/io.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes/detail",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/detail/pbes_expression2boolean_expression_traverser.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/find.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/gauss_elimination.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/io.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/join.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/justification.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/local_fixpoints.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/normal_forms.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/parse.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/pbes_input_output_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/pbes_input_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/pbes_output_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/pbes_rewriter_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/pbesinst_conversion.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/pg_parse.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/print.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/remove_level.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/replace.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/simplify_rewriter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/small_progress_measures.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/solution_strategy.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/to_bdd.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/bes",
+			"paths" : 
+			[
+				"libraries/bes/include/mcrl2/bes/traverser.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libraries/bes",
+		"source" : "libraries/bes"
+	}
+}

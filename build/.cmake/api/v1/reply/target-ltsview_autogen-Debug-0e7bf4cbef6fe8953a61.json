@@ -1,0 +1,73 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"tools/release/ltsview/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "tr::@533a88abc2864cd1674f"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "mcrl2_gui::@696e163cd00ea1e3a5ef"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "mcrl2_lts::@455d1a82541ad1e58a6d"
+		}
+	],
+	"id" : "ltsview_autogen::@3b82d76ee3f7193d0c9b",
+	"isGeneratorProvided" : true,
+	"name" : "ltsview_autogen",
+	"paths" : 
+	{
+		"build" : "tools/release/ltsview",
+		"source" : "tools/release/ltsview"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/tools/release/ltsview/CMakeFiles/ltsview_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/tools/release/ltsview/CMakeFiles/ltsview_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

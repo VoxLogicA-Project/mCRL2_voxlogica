@@ -1,0 +1,67 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_add_mcrl2_binary",
+			"add_mcrl2_library"
+		],
+		"files" : 
+		[
+			"build/cmake/AddMCRL2Binary.cmake",
+			"libraries/bes/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "bes_pg_syntax::@8677f93575175667be66",
+	"name" : "bes_pg_syntax",
+	"paths" : 
+	{
+		"build" : "libraries/bes",
+		"source" : "libraries/bes"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "libraries/bes/source/pg_syntax.g",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

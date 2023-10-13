@@ -1,0 +1,9 @@
+[Desktop Entry]
+Icon=mcrl2-red
+Name=LPSXSim
+Comment=Linear process simulator (mCRL2 toolset)
+Type=Application
+Exec=lpsxsim
+Categories=Education;Science;
+X-SuSE-translate=true
+

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "../../../stage/bin/mcrl2-gui"
+  "../../../stage/bin/mcrl2-gui.pdb"
+  "CMakeFiles/mcrl2-gui_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/mcrl2-gui_autogen.dir/ParseCache.txt"
+  "mcrl2-gui_autogen"
+  "CMakeFiles/mcrl2-gui.dir/copydialog.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/copydialog.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/copythread.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/copythread.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/filebrowser.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/filebrowser.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/fileinformation.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/fileinformation.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/filepicker.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/filepicker.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/main.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/main.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/mainwindow.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/mcrl2-gui_autogen/EWIEGA46WW/qrc_mcrl2-gui.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/mcrl2-gui_autogen/EWIEGA46WW/qrc_mcrl2-gui.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/mcrl2-gui_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/mcrl2-gui_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/multiprocess.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/multiprocess.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/optionvalue.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/optionvalue.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/toolaction.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/toolaction.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/toolcatalog.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/toolcatalog.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/toolinformation.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/toolinformation.cpp.o.d"
+  "CMakeFiles/mcrl2-gui.dir/toolinstance.cpp.o"
+  "CMakeFiles/mcrl2-gui.dir/toolinstance.cpp.o.d"
+  "mcrl2-gui_autogen/EWIEGA46WW/qrc_mcrl2-gui.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mcrl2-gui.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

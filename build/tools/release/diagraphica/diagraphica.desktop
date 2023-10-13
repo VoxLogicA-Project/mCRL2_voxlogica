@@ -1,0 +1,9 @@
+[Desktop Entry]
+Icon=mcrl2-green
+Name=DiaGraphica
+Comment=Advanced state space visualisation tool (mCRL2 toolset)
+Type=Application
+Exec=diagraphica
+Categories=Education;Science;
+X-SuSE-translate=true
+

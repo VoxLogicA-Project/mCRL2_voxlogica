@@ -1,0 +1,1171 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"_add_mcrl2_binary",
+			"add_mcrl2_library",
+			"_install_header_files"
+		],
+		"files" : 
+		[
+			"libraries/utilities/CMakeLists.txt",
+			"build/cmake/AddMCRL2Binary.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 312,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 251,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 5
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"build/libraries/utilities/mcrl2/utilities/toolset_version_const.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libmcrl2_utilities.so"
+			],
+			"targetId" : "mcrl2_utilities::@948e9f7ab03f5cb4e1f2",
+			"targetIndex" : 74,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/basename.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/big_numbers.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/bitstream.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/block_allocator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/cache_metric.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/cache_policy.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/command_line_interface.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/configuration.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/atomic_wrapper.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/bucket_list.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/command.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/container_utility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/free_list.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/hashtable.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/indexed_set.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/io.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/iota.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/join.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/memory_utility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/position_counter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/separate_keyword_section.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/split.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/test_operation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/transform_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/unordered_map_implementation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities/detail",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/detail/unordered_set_implementation.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/dynamiclibrary.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/exception.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/execution_timer.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/file_utility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/fixed_size_cache.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/hash_utility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/hashtable.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/indexed_set.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/input_input_output_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/input_input_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/input_output_output_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/input_output_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/input_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/logger.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/math.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/memory_pool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/noncopyable.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/number_postfix_generator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/parallel_tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/parse_numbers.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/platform.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 53,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/power_of_two.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/progress_meter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/reachable_nodes.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/sequence.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/shared_mutex.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/shared_reference.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/skip.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/spinlock.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/stack_array.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/stopwatch.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 63,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/tagged_pointer.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/test_utilities.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 65,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/text_utility.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/tool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 67,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/toolset_version.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/type_traits.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 69,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/uncompiledlibrary.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/unordered_map.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 71,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/unordered_set.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/unused.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 73,
+			"component" : "Headers",
+			"destination" : "include/mcrl2/utilities",
+			"paths" : 
+			[
+				"libraries/utilities/include/mcrl2/utilities/workarounds.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libraries/utilities",
+		"source" : "libraries/utilities"
+	}
+}
